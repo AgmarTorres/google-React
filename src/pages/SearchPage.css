@@ -54,12 +54,19 @@
   margin-right: 20px;
 }
 
+.search__result {
+  margin: 40px 0;
+}
+
 .searchPage__option a {
   margin-left: 5px;
 }
 
-.searchPage__results {
-  margin: 40px 0;
+.searchPage__resultCount {
+  color: #70757a;
+  text-align: left;
+  align-items: left;
+  font-size: 14px;
 }
 
 .searchPage__results {
@@ -69,6 +76,10 @@
   margin-bottom: 100px;
 }
 
+.searchPage__result {
+  text-align: left;
+  margin: 40px 0;
+}
 .searchPage__resultTitle {
   text-decoration: none;
 }
@@ -77,6 +88,17 @@
   text-decoration: underline;
 }
 
-.searchPage__resulteTitle > h2 {
+.searchPage__resultTitle > h2 {
   font-weight: 500;
+}
+
+.searchPage__resultSnippet {
+  margin-top: 10px;
+}
+
+.searchPage__resultImage {
+  object-fit: contain;
+  height: 20px;
+  width: 20px;
+  margin-right: 10px;
 }

@@ -16,7 +16,6 @@ function Home() {
           <Link to="/gmail">Gmail</Link>
           <Link to="/images">Image</Link>
           <AppsIcon />
-
           <Avatar />
         </div>
       </div>
